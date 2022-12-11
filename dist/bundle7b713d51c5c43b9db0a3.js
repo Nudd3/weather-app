@@ -586,17 +586,43 @@ module.exports = styleTagTransform;
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/*!*************************!*\
+  !*** ./src/js/index.js ***!
+  \*************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ "./src/styles/main.scss");
+/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/main.scss */ "./src/styles/main.scss");
+//import './styles/main.scss'
 
+//import * as apiFunctions from './api-functions'
 console.log('hello world!');
 
+async function getCoords() {
+  const url = 'http://api.openweathermap.org/geo/1.0/direct?q=london&limit=1&appid=41be00f526a0aecf69af7a7fd13a78d9'
+  const coords = await fetch(url, {mode: 'cors'});
+  const data = await coords.json();
+  //return [data.lat, data.lon];
+  return {
+    data
+  };
+}
 
+//https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}
+
+async function getWeather(lat, lon) {
+  const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&units=metric&appid=41be00f526a0aecf69af7a7fd13a78d9`;
+  const cityRequest = await fetch(url, {mode: 'cors'});
+  const city = await cityRequest.json();
+  console.log(city);
+}
+
+let londonJson = getCoords();
+console.log(londonJson[0]);
+//getWeather(londonJson.lat, londonJson.lon);
+
+//console.log(londonJson);
+//51.5073219
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle7d3791a19a8701b9f5d1.js.map
+//# sourceMappingURL=bundle7b713d51c5c43b9db0a3.js.map
