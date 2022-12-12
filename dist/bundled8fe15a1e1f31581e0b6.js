@@ -16,12 +16,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/background.jpg */ "./src/assets/background.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap);"]);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "h1 {\n  color: green;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAAA;EACE,YAAA;AACF","sourcesContent":["h1 {\n  color: green;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  padding: 0;\n  margin: 0;\n}\n\nbody {\n  min-height: 100vh;\n  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n  color: #f1f5f9;\n  font-family: montserrat, sans-serif;\n}\n\n.main-container {\n  display: grid;\n  grid-template-rows: 2fr 1fr;\n  height: 100vh;\n  border: 1px solid green;\n}\n\n.upper-container {\n  display: flex;\n  align-items: flex-start;\n  justify-content: center;\n}\n\n.center-container {\n  align-self: flex-start;\n  padding-top: 100px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid purple;\n  align-self: center;\n  gap: 20px;\n}\n\n.search-section {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-bottom: 2px solid #f1f5f9;\n}\n\n#search {\n  appearance: none;\n  border: none;\n  color: #f1f5f9;\n  font-size: 1em;\n  text-align: center;\n  padding: 5px;\n  width: 100%;\n  background-color: #f1f5f9;\n  background-color: rgba(255, 255, 255, 0);\n}\n#search:focus {\n  outline: none;\n}\n\n#searchIcon {\n  cursor: pointer;\n}\n\n#cityName {\n  font-size: 4rem;\n  font-family: \"Unbounded\", cursive, sans-serif;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAIA;EACE,UAAA;EACA,SAAA;AAFF;;AAKA;EACE,iBAAA;EAEA,4HAAA;EAMA,sBAAA;EACA,4BAAA;EACA,2BAAA;EAEA,cArBc;EAsBd,mCAAA;AATF;;AAYA;EACE,aAAA;EACA,2BAAA;EACA,aAAA;EACA,uBAAA;AATF;;AAYA;EACE,aAAA;EAEA,uBAAA;EACA,uBAAA;AAVF;;AAaA;EACE,sBAAA;EACA,kBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,wBAAA;EACA,kBAAA;EACA,SAAA;AAVF;;AAaA;EACE,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,gCAAA;AAVF;;AAaA;EACE,gBAAA;EACA,YAAA;EAEA,cA9Dc;EA+Dd,cAAA;EACA,kBAAA;EACA,YAAA;EACA,WAAA;EACA,yBAnEc;EAoEd,wCAAA;AAXF;AAaE;EACE,aAAA;AAXJ;;AAeA;EACE,eAAA;AAZF;;AAeA;EACE,eAAA;EACA,6CAhFW;AAoEb","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');\n$primary-color: #f1f5f9;\n$font-stack: 'Unbounded', cursive, sans-serif;\n\n* {\n  padding: 0;\n  margin: 0;\n}\n\nbody {\n  min-height: 100vh;\n  // background-color: rgb(37, 77, 165);\n  background-image: linear-gradient(\n      to right,\n      rgba(black, 0.4),\n      rgba(black, 0.4)\n    ),\n    url('../assets/background.jpg');\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n  //color: $color-text;\n  color: $primary-color;\n  font-family: montserrat, sans-serif;\n}\n\n.main-container {\n  display: grid;\n  grid-template-rows: 2fr 1fr;\n  height: 100vh;\n  border: 1px solid green;\n}\n\n.upper-container {\n  display: flex;\n  \n  align-items: flex-start;\n  justify-content: center;\n}\n\n.center-container {\n  align-self: flex-start;\n  padding-top: 100px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid purple;\n  align-self: center;\n  gap: 20px;\n}\n\n.search-section {\n  display:flex;\n  align-items: center;\n  justify-content: center;\n  border-bottom: 2px solid $primary-color;\n}\n\n#search {\n  appearance: none;\n  border: none;\n  //border-radius: 8px;\n  color: $primary-color;\n  font-size: 1em;\n  text-align: center;\n  padding: 5px;\n  width: 100%;\n  background-color: $primary-color;\n  background-color: rgba(255, 255, 255, 0);\n\n  &:focus {\n    outline: none;\n  }\n}\n\n#searchIcon {\n  cursor: pointer;\n}\n\n#cityName {\n  font-size: 4rem;\n  font-family: $font-stack;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -118,6 +124,41 @@ module.exports = function (cssWithMappingToString) {
     }
   };
   return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+  if (!url) {
+    return url;
+  }
+  url = String(url.__esModule ? url.default : url);
+
+  // If url is already wrapped in quotes, remove them
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+  if (options.hash) {
+    url += options.hash;
+  }
+
+  // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+  return url;
 };
 
 /***/ }),
@@ -508,6 +549,107 @@ function styleTagTransform(css, styleElement) {
 
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/js/api-functions.js":
+/*!*********************************!*\
+  !*** ./src/js/api-functions.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "collectDataFromForm": () => (/* binding */ collectDataFromForm),
+/* harmony export */   "getCoords": () => (/* binding */ getCoords),
+/* harmony export */   "getWeather": () => (/* binding */ getWeather)
+/* harmony export */ });
+// What needs to be done?
+// Call two different apis
+// First one to get coordinates to a specific city
+// Second one to get the weather from that city
+function collectDataFromForm() {
+  const inputField = document.getElementById('search');
+  const cityName = inputField.value;
+  // Clear up input from empty spaces/symbols
+  
+  return cityName;
+}
+
+async function getCoords(city) {
+  const url = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=41be00f526a0aecf69af7a7fd13a78d9`
+  const response = await fetch(url, {mode: 'cors'});
+  const data = await response.json();
+  //const coord = data[0];
+  const coord = {
+    lat: data[0].lat,
+    lon: data[0].lon
+  };
+  
+  return coord;
+}
+
+async function getWeather(lat, lon) {
+  const url =  `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=41be00f526a0aecf69af7a7fd13a78d9`;
+  const cityRequest = await fetch(url, {mode: 'cors'});
+  const city = await cityRequest.json();
+
+  //return city.main.temp;
+  return city;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./src/js/dom-functions.js":
+/*!*********************************!*\
+  !*** ./src/js/dom-functions.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "displayCity": () => (/* binding */ displayCity),
+/* harmony export */   "displayWeatherInfo": () => (/* binding */ displayWeatherInfo)
+/* harmony export */ });
+function displayCity(weatherInfo) {
+  const cityName = document.getElementById('cityName');
+  const searchField = document.getElementById('search')
+
+  const city = weatherInfo.name;
+  const country = weatherInfo.sys.country;
+  //const currentTemp = weather.main.temp;
+
+  cityName.innerHTML = `${city}, ${country}`;
+  searchField.value = null;
+  searchField.placeholder = searchField.placeholder;
+
+
+  // console.log(weather.main.temp);
+  // console.log(weather.sys.country);
+}
+
+function displayWeatherInfo(weatherInfo) {
+  //console.log(weatherInfo.main.temp);
+  console.log(weatherInfo);
+}
+
+
+
+  
+  
+
+/***/ }),
+
+/***/ "./src/assets/background.jpg":
+/*!***********************************!*\
+  !*** ./src/assets/background.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "be3ac8c92f74564819c8.jpg";
+
 /***/ })
 
 /******/ 	});
@@ -536,6 +678,9 @@ module.exports = styleTagTransform;
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -561,6 +706,18 @@ module.exports = styleTagTransform;
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -577,6 +734,52 @@ module.exports = styleTagTransform;
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"bundle": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/nonce */
 /******/ 	(() => {
 /******/ 		__webpack_require__.nc = undefined;
@@ -591,38 +794,38 @@ var __webpack_exports__ = {};
   \*************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/main.scss */ "./src/styles/main.scss");
-//import './styles/main.scss'
+/* harmony import */ var _js_api_functions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../js/api-functions */ "./src/js/api-functions.js");
+/* harmony import */ var _js_dom_functions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../js/dom-functions */ "./src/js/dom-functions.js");
 
-//import * as apiFunctions from './api-functions'
+
+
 console.log('hello world!');
 
-async function getCoords() {
-  const url = 'http://api.openweathermap.org/geo/1.0/direct?q=london&limit=1&appid=41be00f526a0aecf69af7a7fd13a78d9'
-  const coords = await fetch(url, {mode: 'cors'});
-  const data = await coords.json();
-  //return [data.lat, data.lon];
-  return {
-    data
-  };
+//apiFunctions.use('Halmstad');
+
+
+const searchIcon = document.getElementById('searchIcon');
+
+searchIcon.addEventListener('click', () => {
+  displayInfo();
+});
+
+async function displayInfo() {
+  // Collect Data
+  const city = _js_api_functions__WEBPACK_IMPORTED_MODULE_1__.collectDataFromForm();
+  const coords = await _js_api_functions__WEBPACK_IMPORTED_MODULE_1__.getCoords(city);
+  const weatherInfo = await _js_api_functions__WEBPACK_IMPORTED_MODULE_1__.getWeather(coords.lat, coords.lon);
+  
+  // Display City Info
+  _js_dom_functions__WEBPACK_IMPORTED_MODULE_2__.displayCity(weatherInfo);
+  //console.log(weatherInfo);
+  
+  // Display Weather Info
+  _js_dom_functions__WEBPACK_IMPORTED_MODULE_2__.displayWeatherInfo(weatherInfo);
+
 }
-
-//https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}
-
-async function getWeather(lat, lon) {
-  const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&units=metric&appid=41be00f526a0aecf69af7a7fd13a78d9`;
-  const cityRequest = await fetch(url, {mode: 'cors'});
-  const city = await cityRequest.json();
-  console.log(city);
-}
-
-let londonJson = getCoords();
-console.log(londonJson[0]);
-//getWeather(londonJson.lat, londonJson.lon);
-
-//console.log(londonJson);
-//51.5073219
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle7b713d51c5c43b9db0a3.js.map
+//# sourceMappingURL=bundled8fe15a1e1f31581e0b6.js.map
