@@ -54,7 +54,7 @@ function displayFeelsLike(weatherInfo) {
   infoContainer.classList.add('info-text');
   const text = document.createElement('div');
   const temp = document.createElement('div');
-  text.innerHTML = 'Feels like';
+  text.innerHTML = 'Feels Like';
   temp.innerHTML = `${weatherInfo.main.feels_like} <span>&#8451;</span>`;
 
   infoContainer.appendChild(text);
