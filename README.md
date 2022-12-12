@@ -1,6 +1,7 @@
 # Weather App
 
 (***Image***)
+![Image of homepage](./src/assets/screenshot.png)
 
 ## About
 A simple weather app which shows the degrees (in celcius) as well as some additional weather information.
