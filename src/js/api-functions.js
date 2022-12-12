@@ -11,7 +11,7 @@ function collectDataFromForm() {
 }
 
 async function getCoords(city) {
-  const url = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=41be00f526a0aecf69af7a7fd13a78d9`
+  const url = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=41be00f526a0aecf69af7a7fd13a78d9`
   const response = await fetch(url, {mode: 'cors'});
   const data = await response.json();
   //const coord = data[0];
