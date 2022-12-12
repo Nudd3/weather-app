@@ -1,7 +1,9 @@
 # Weather App
 
-(***Image***)
-![Image of homepage](./src/assets/screenshot.png)
+
+![Image of webpage landscap](./src/assets/screenshot-landscape.png)
+
+![Image of webpage portrait](./src/assets/screenshot-portrait.png)
 
 ## About
 A simple weather app which shows the degrees (in celcius) as well as some additional weather information.
@@ -26,4 +28,5 @@ The following was used to create the application:
 * Webpack
 * [OpenWeatherApp API](OpenWeatherApp.com)
 
-
+# Assets
+[Background Image](https://unsplash.com/photos/7BjhtdogU3A) taken by [Karseten Würth](https://unsplash.com/@karsten_wuerth)
