@@ -11,10 +11,10 @@ A simple weather app which shows the degrees (in celcius) as well as some additi
 ### Takeaways
 The big thing to learn while making this project was how to work with APIs. It was also a good opportunity to deepen my understanding about what Webpack does and how it works. 
 
-Code [here](github.com/nudd3/weather-app)
+Code [here](https://github.com/Nudd3/weather-app)
 Live [here](asdkads)
 
-The project is a part of [The Odin Project's](www.theodinproject.com) curriculum. 
+The project is a part of [The Odin Project's](https://www.theodinproject.com) curriculum. 
 
 
 ## Technologies
@@ -26,7 +26,7 @@ The following was used to create the application:
 * JavaScript
 * Git
 * Webpack
-* [OpenWeatherApp API](OpenWeatherApp.com)
+* [OpenWeatherApp APIs](https://openweathermap.org)
 
 # Assets
 [Background Image](https://unsplash.com/photos/7BjhtdogU3A) taken by [Karseten Würth](https://unsplash.com/@karsten_wuerth)
