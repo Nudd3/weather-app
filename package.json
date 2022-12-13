@@ -5,17 +5,21 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nudd3/weather-app.git"
   },
+  "homepage": "http://Nudd3.github.io/weather-app",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.7.2",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "sass": "^1.56.2",
     "sass-loader": "^13.2.0",

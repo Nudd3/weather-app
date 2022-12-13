@@ -27,7 +27,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  padding: 0;\n  margin: 0;\n}\n\nbody {\n  min-height: 100vh;\n  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n  color: #f1f5f9;\n  font-family: \"Unbounded\", cursive, sans-serif;\n}\n@media (max-width: 700px) {\n  body {\n    height: auto;\n  }\n}\n\n.main-container {\n  display: grid;\n  grid-template-rows: 1.5fr 1fr;\n  height: 100vh;\n}\n\n.upper-container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 50px;\n}\n\n.info {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 25px;\n}\n\n.search-section {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 5px;\n}\n\n#search {\n  appearance: none;\n  border: none;\n  border-radius: 8px;\n  color: #f1f5f9;\n  font-size: 1.5em;\n  text-align: center;\n  padding: 5px;\n  width: 100%;\n  background-color: rgba(255, 255, 255, 0.466);\n}\n#search:focus {\n  outline: none;\n  background-color: rgba(209, 209, 209, 0.466);\n}\n#search:hover {\n  background-color: rgba(209, 209, 209, 0.466);\n}\n#search::placeholder {\n  color: #f1f5f9;\n}\n\n#searchIcon {\n  cursor: pointer;\n}\n\n#cityName {\n  font-size: 4rem;\n  font-family: \"Unbounded\", cursive, sans-serif;\n}\n\n.temp-display {\n  display: flex;\n  font-size: 2.5rem;\n  font-family: \"Unbounded\", cursive, sans-serif;\n  font-weight: 1000;\n}\n.temp-display span {\n  font-weight: 700;\n}\n\n.lower-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 50px;\n  flex-wrap: wrap;\n}\n@media (max-width: 1350px) {\n  .lower-container {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    grid-template-rows: 1fr 1fr;\n    justify-items: center;\n  }\n}\n@media (max-width: 700px) {\n  .lower-container {\n    display: flex;\n    flex-direction: column;\n    height: auto;\n  }\n}\n\n.info-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 300px;\n  height: 250px;\n  gap: 30px;\n}\n.info-container .info-text {\n  font-size: 1.5rem;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAIA;EACE,UAAA;EACA,SAAA;AAFF;;AAKA;EACE,iBAAA;EAEA,4HAAA;EAMA,sBAAA;EACA,4BAAA;EACA,2BAAA;EAEA,cArBc;EAsBd,6CArBW;AAYb;AAWE;EAhBF;IAiBI,YAAA;EARF;AACF;;AAYA;EACE,aAAA;EACA,6BAAA;EAEA,aAAA;AAVF;;AAeA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,SAAA;AAZF;;AAgBA;EACE,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,SAAA;AAbF;;AAgBA;EACE,aAAA;EACA,mBAAA;EACA,uBAAA;EAEA,QAAA;AAdF;;AAiBA;EACE,gBAAA;EACA,YAAA;EACA,kBAAA;EACA,cApEc;EAqEd,gBAAA;EACA,kBAAA;EACA,YAAA;EACA,WAAA;EACA,4CAAA;AAdF;AAgBE;EACE,aAAA;EACA,4CAAA;AAdJ;AAiBE;EACE,4CAAA;AAfJ;AAkBE;EACE,cArFY;AAqEhB;;AAoBA;EACE,eAAA;AAjBF;;AAoBA;EACE,eAAA;EACA,6CA9FW;AA6Eb;;AAoBA;EACE,aAAA;EACA,iBAAA;EACA,6CApGW;EAqGX,iBAAA;AAjBF;AAmBE;EACE,gBAAA;AAjBJ;;AAqBA;EACE,aAAA;EAEA,mBAAA;EACA,uBAAA;EACA,SAAA;EACA,eAAA;AAnBF;AAqBE;EARF;IASI,aAAA;IACA,8BAAA;IACA,2BAAA;IAEA,qBAAA;EAnBF;AACF;AAqBE;EAhBF;IAiBI,aAAA;IACA,sBAAA;IACA,YAAA;EAlBF;AACF;;AAsBA;EACE,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,YAAA;EACA,aAAA;EACA,SAAA;AAnBF;AAqBE;EACE,iBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;AAnBJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');\n$primary-color: #f1f5f9;\n$font-stack: 'Unbounded', cursive, sans-serif;\n\n* {\n  padding: 0;\n  margin: 0;\n}\n\nbody {\n  min-height: 100vh;\n  // background-color: rgb(37, 77, 165);\n  background-image: linear-gradient(\n      to right,\n      rgba(black, 0.4),\n      rgba(black, 0.4)\n    ),\n    url('../assets/background.jpg');\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n  //color: $color-text;\n  color: $primary-color;\n  font-family: $font-stack;\n\n  @media (max-width: 700px) {\n    height: auto;\n  }\n\n}\n\n.main-container {\n  display: grid;\n  grid-template-rows: 1.5fr 1fr;\n\n  height: 100vh;\n\n  \n}\n\n.upper-container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 50px;\n\n}\n\n.info {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 25px;\n}\n\n.search-section {\n  display:flex;\n  align-items: center;\n  justify-content: center;\n  //border-bottom: 2px solid $primary-color;\n  gap: 5px;\n}\n\n#search {\n  appearance: none;\n  border: none;\n  border-radius: 8px;\n  color: $primary-color;\n  font-size: 1.5em;\n  text-align: center;\n  padding: 5px;\n  width: 100%;\n  background-color: rgba(255, 255, 255, 0.466);\n\n  &:focus {\n    outline: none;\n    background-color: rgba(209, 209, 209, 0.466);\n  }\n\n  &:hover {\n    background-color: rgba(209, 209, 209, 0.466);\n  }\n\n  &::placeholder {\n    color: $primary-color;\n  }\n}\n\n#searchIcon {\n  cursor: pointer;\n}\n\n#cityName {\n  font-size: 4rem;\n  font-family: $font-stack;\n}\n\n.temp-display {\n  display: flex;\n  font-size: 2.5rem;\n  font-family: $font-stack;\n  font-weight: 1000;\n\n  span {\n    font-weight: 700;\n  }\n}\n\n.lower-container {\n  display: flex;\n  \n  align-items: center;\n  justify-content: center;\n  gap: 50px;\n  flex-wrap: wrap;\n\n  @media(max-width: 1350px) {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    grid-template-rows: 1fr 1fr;\n    \n    justify-items: center;\n  }\n\n  @media (max-width: 700px) {\n    display: flex;\n    flex-direction: column;\n    height: auto;\n  }\n \n}\n\n.info-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 300px;\n  height: 250px;\n  gap: 30px;\n\n  .info-text {\n    font-size: 1.5rem;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n  }\n\n  \n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  padding: 0;\n  margin: 0;\n}\n\nbody {\n  min-height: 100vh;\n  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n  color: #f1f5f9;\n  font-family: \"Unbounded\", cursive, sans-serif;\n}\n@media (max-width: 700px) {\n  body {\n    height: auto;\n  }\n}\n\n.main-container {\n  display: grid;\n  grid-template-rows: 1.5fr 1fr;\n  height: 100vh;\n}\n\n.upper-container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 50px;\n}\n\n.info {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 25px;\n}\n\n.search-section {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 5px;\n}\n\n#search {\n  appearance: none;\n  border: none;\n  border-radius: 8px;\n  color: #f1f5f9;\n  font-size: 1.5em;\n  text-align: center;\n  padding: 5px;\n  width: 100%;\n  background-color: rgba(255, 255, 255, 0.466);\n}\n#search:focus {\n  outline: none;\n  background-color: rgba(209, 209, 209, 0.466);\n}\n#search:hover {\n  background-color: rgba(209, 209, 209, 0.466);\n}\n#search::placeholder {\n  color: #f1f5f9;\n}\n\n#searchIcon {\n  cursor: pointer;\n}\n\n#cityName {\n  font-size: 4rem;\n  font-family: \"Unbounded\", cursive, sans-serif;\n}\n\n.temp-display {\n  display: flex;\n  font-size: 2.5rem;\n  font-family: \"Unbounded\", cursive, sans-serif;\n  font-weight: 1000;\n}\n.temp-display span {\n  font-weight: 700;\n}\n\n.lower-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 50px;\n  flex-wrap: wrap;\n}\n@media (max-width: 1350px) {\n  .lower-container {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    grid-template-rows: 1fr 1fr;\n    justify-items: center;\n  }\n}\n@media (max-width: 700px) {\n  .lower-container {\n    display: flex;\n    flex-direction: column;\n    height: auto;\n  }\n}\n\n.info-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 300px;\n  height: 250px;\n  gap: 30px;\n}\n.info-container .info-text {\n  font-size: 1.5rem;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAIA;EACE,UAAA;EACA,SAAA;AAFF;;AAKA;EACE,iBAAA;EACA,4HAAA;EAMA,sBAAA;EACA,4BAAA;EACA,2BAAA;EACA,cAnBc;EAoBd,6CAnBW;AAYb;AASE;EAdF;IAeI,YAAA;EANF;AACF;;AAUA;EACE,aAAA;EACA,6BAAA;EAEA,aAAA;AARF;;AAaA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,SAAA;AAVF;;AAcA;EACE,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,SAAA;AAXF;;AAcA;EACE,aAAA;EACA,mBAAA;EACA,uBAAA;EAEA,QAAA;AAZF;;AAeA;EACE,gBAAA;EACA,YAAA;EACA,kBAAA;EACA,cAlEc;EAmEd,gBAAA;EACA,kBAAA;EACA,YAAA;EACA,WAAA;EACA,4CAAA;AAZF;AAcE;EACE,aAAA;EACA,4CAAA;AAZJ;AAeE;EACE,4CAAA;AAbJ;AAgBE;EACE,cAnFY;AAqEhB;;AAkBA;EACE,eAAA;AAfF;;AAkBA;EACE,eAAA;EACA,6CA5FW;AA6Eb;;AAkBA;EACE,aAAA;EACA,iBAAA;EACA,6CAlGW;EAmGX,iBAAA;AAfF;AAiBE;EACE,gBAAA;AAfJ;;AAmBA;EACE,aAAA;EAEA,mBAAA;EACA,uBAAA;EACA,SAAA;EACA,eAAA;AAjBF;AAmBE;EARF;IASI,aAAA;IACA,8BAAA;IACA,2BAAA;IAEA,qBAAA;EAjBF;AACF;AAmBE;EAhBF;IAiBI,aAAA;IACA,sBAAA;IACA,YAAA;EAhBF;AACF;;AAoBA;EACE,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,YAAA;EACA,aAAA;EACA,SAAA;AAjBF;AAmBE;EACE,iBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;AAjBJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');\n$primary-color: #f1f5f9;\n$font-stack: 'Unbounded', cursive, sans-serif;\n\n* {\n  padding: 0;\n  margin: 0;\n}\n\nbody {\n  min-height: 100vh;\n  background-image: linear-gradient(\n      to right,\n      rgba(black, 0.4),\n      rgba(black, 0.4)\n    ),\n    url('../assets/background.jpg');\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n  color: $primary-color;\n  font-family: $font-stack;\n\n  @media (max-width: 700px) {\n    height: auto;\n  }\n\n}\n\n.main-container {\n  display: grid;\n  grid-template-rows: 1.5fr 1fr;\n\n  height: 100vh;\n\n  \n}\n\n.upper-container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 50px;\n\n}\n\n.info {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 25px;\n}\n\n.search-section {\n  display:flex;\n  align-items: center;\n  justify-content: center;\n  //border-bottom: 2px solid $primary-color;\n  gap: 5px;\n}\n\n#search {\n  appearance: none;\n  border: none;\n  border-radius: 8px;\n  color: $primary-color;\n  font-size: 1.5em;\n  text-align: center;\n  padding: 5px;\n  width: 100%;\n  background-color: rgba(255, 255, 255, 0.466);\n\n  &:focus {\n    outline: none;\n    background-color: rgba(209, 209, 209, 0.466);\n  }\n\n  &:hover {\n    background-color: rgba(209, 209, 209, 0.466);\n  }\n\n  &::placeholder {\n    color: $primary-color;\n  }\n}\n\n#searchIcon {\n  cursor: pointer;\n}\n\n#cityName {\n  font-size: 4rem;\n  font-family: $font-stack;\n}\n\n.temp-display {\n  display: flex;\n  font-size: 2.5rem;\n  font-family: $font-stack;\n  font-weight: 1000;\n\n  span {\n    font-weight: 700;\n  }\n}\n\n.lower-container {\n  display: flex;\n  \n  align-items: center;\n  justify-content: center;\n  gap: 50px;\n  flex-wrap: wrap;\n\n  @media(max-width: 1350px) {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    grid-template-rows: 1fr 1fr;\n    \n    justify-items: center;\n  }\n\n  @media (max-width: 700px) {\n    display: flex;\n    flex-direction: column;\n    height: auto;\n  }\n \n}\n\n.info-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 300px;\n  height: 250px;\n  gap: 30px;\n\n  .info-text {\n    font-size: 1.5rem;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n  }\n\n  \n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -576,7 +576,7 @@ function collectDataFromForm() {
 }
 
 async function getCoords(city) {
-  const url = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=41be00f526a0aecf69af7a7fd13a78d9`
+  const url = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=41be00f526a0aecf69af7a7fd13a78d9`
   const response = await fetch(url, {mode: 'cors'});
   const data = await response.json();
   //const coord = data[0];
@@ -614,7 +614,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "displayCity": () => (/* binding */ displayCity),
 /* harmony export */   "displayWeatherInfo": () => (/* binding */ displayWeatherInfo)
 /* harmony export */ });
-/* harmony import */ var _utilities__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utilities */ "./src/js/utilities.js");
+/* harmony import */ var _js_utilities__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../js/utilities */ "./src/js/utilities.js");
+//import * as utils from '..js/utilities'
 
 
 function displayCity(weatherInfo) {
@@ -664,7 +665,7 @@ function displayFeelsLike(weatherInfo) {
   console.log(weatherInfo);
   const container = document.querySelector('.feels-like');
   const iconContainer = document.createElement('div');
-  iconContainer.innerHTML = _utilities__WEBPACK_IMPORTED_MODULE_0__.infoIcons('feels like');
+  iconContainer.innerHTML = _js_utilities__WEBPACK_IMPORTED_MODULE_0__.infoIcons('feels like');
 
 
   const infoContainer = document.createElement('div');
@@ -686,7 +687,7 @@ function displayFeelsLike(weatherInfo) {
 function displayMain(weatherInfo) {
   const container = document.querySelector('.main');
   const iconContainer = document.createElement('div');
-  iconContainer.innerHTML = _utilities__WEBPACK_IMPORTED_MODULE_0__.weatherIcons(weatherInfo.weather[0].main.toLowerCase());
+  iconContainer.innerHTML = _js_utilities__WEBPACK_IMPORTED_MODULE_0__.weatherIcons(weatherInfo.weather[0].main.toLowerCase());
 
 
   const infoContainer = document.createElement('div');
@@ -704,7 +705,7 @@ function displayMain(weatherInfo) {
 function displayHumidity(weatherInfo) {
   const container = document.querySelector('.humidity');
   const iconContainer = document.createElement('div');
-  iconContainer.innerHTML = _utilities__WEBPACK_IMPORTED_MODULE_0__.infoIcons('humidity');
+  iconContainer.innerHTML = _js_utilities__WEBPACK_IMPORTED_MODULE_0__.infoIcons('humidity');
 
 
   const infoContainer = document.createElement('div');
@@ -725,7 +726,7 @@ function displayHumidity(weatherInfo) {
 function displayWindSpeed(weatherInfo) {
   const container = document.querySelector('.wind-speed');
   const iconContainer = document.createElement('div');
-  iconContainer.innerHTML = _utilities__WEBPACK_IMPORTED_MODULE_0__.infoIcons('wind speed');
+  iconContainer.innerHTML = _js_utilities__WEBPACK_IMPORTED_MODULE_0__.infoIcons('wind speed');
 
 
   const infoContainer = document.createElement('div');
@@ -782,19 +783,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "infoIcons": () => (/* binding */ infoIcons),
 /* harmony export */   "weatherIcons": () => (/* binding */ weatherIcons)
 /* harmony export */ });
-/** Different Weather Mains **/
-// clear sky 
-// few clouds 
-// scattered clouds 
-// broken clouds 
-// shower rain 
-// rain 
-// thunderstorm 
-// snow 
-// mist
 function weatherIcons(weather) {
-
-  switch(weather) {
+  switch (weather) {
     case 'clear sky':
       return '<i class="fa-regular fa-sun fa-4x"></i>';
     case 'clouds':
@@ -802,35 +792,36 @@ function weatherIcons(weather) {
     case 'scattered clouds':
       return '<i class="fa-regular fa-cloud fa-5x"></i>';
     case 'broken clouds':
-      return '<i class="fa-regular fa-clouds fa-5x"></i>'
+      return '<i class="fa-regular fa-clouds fa-5x"></i>';
 
     case 'shower rain':
-      return '<i class="fa-solid fa-cloud-showers fa-5x"></i>'
+      return '<i class="fa-solid fa-cloud-showers fa-5x"></i>';
 
     case 'rain':
-      return '<i class="fa-solid fa-cloud-rain fa-5x"></i>'
+      return '<i class="fa-solid fa-cloud-rain fa-5x"></i>';
 
     case 'thunderstorm':
-      return '<i class="fa-solid fa-cloud-bolt fa-5x"></i>'
+      return '<i class="fa-solid fa-cloud-bolt fa-5x"></i>';
 
     case 'snow':
-      return '<i class="fa-light fa-cloud-snow fa-5x"></i>'
+      return '<i class="fa-light fa-cloud-snow fa-5x"></i>';
 
     case 'mist':
-      return '<i class="fa-solid fa-bars-staggered fa-5x"></i>'
+      return '<i class="fa-solid fa-bars-staggered fa-5x"></i>';
   }
 }
 
 function infoIcons(info) {
-  switch(info) {
-    case 'feels like': 
-      return '<i class="fa-solid fa-temperature-quarter fa-5x"></i>'
+  switch (info) {
+    case 'feels like':
+      return '<i class="fa-solid fa-temperature-quarter fa-5x"></i>';
     case 'humidity':
-      return '<i class="fa-solid fa-water fa-5x"></i>'
-    case 'wind speed': 
-      return '<i class="fa-solid fa-wind fa-5x"></i>'
-  } 
+      return '<i class="fa-solid fa-water fa-5x"></i>';
+    case 'wind speed':
+      return '<i class="fa-solid fa-wind fa-5x"></i>';
+  }
 }
+
 
 
 
@@ -1034,4 +1025,4 @@ initialLoad();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle2adb959fbf0beb9a9876.js.map
+//# sourceMappingURL=bundle5e0685c92eb535d50c9a.js.map

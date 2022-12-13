@@ -1,4 +1,5 @@
-import * as utils from './utilities'
+//import * as utils from '..js/utilities'
+import * as utils from '../js/utilities'
 
 function displayCity(weatherInfo) {
   const cityName = document.getElementById('cityName');
