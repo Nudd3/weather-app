@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
 $primary-color: #f1f5f9;
 $font-stack: 'Unbounded', cursive, sans-serif;
-
+$screen-l: 1500px;
+$screen-m: 0;
+$screen-s: 756px;
+$screen-xs: 500px;
 * {
   padding: 0;
   margin: 0;
 }
-
+html, body {
+  height: 100%;
+}
 body {
-  min-height: 100vh;
   background-image: linear-gradient(
       to right,
       rgba(black, 0.4),
@@ -16,32 +20,46 @@ body {
     ),
     url('../assets/background.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
   color: $primary-color;
   font-family: $font-stack;
 
-  @media (max-width: 700px) {
-    height: auto;
-  }
+  // @media (max-width: 700px) {
+  //   height: auto;
+  // }
 
 }
 
 .main-container {
-  display: grid;
-  grid-template-rows: 1.5fr 1fr;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  // grid-template-rows: 1.5fr 1fr;
 
-  height: 100vh;
+  // min-height: 100vh;
 
+  @media (max-width: $screen-xs) {
+    justify-content: center;
+    gap: 2rem;
+  }
   
 }
 
 .upper-container {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 3rem;
+
+  @media (max-width: $screen-xs) {
+    padding-top: 2rem;
+    gap: 1rem;
+  }
 
 }
 
@@ -50,7 +68,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 2rem;
+
+  @media (max-width: $screen-xs) {
+    padding-top: 2rem;
+    gap: 1rem;
+  }
+  
 }
 
 .search-section {
@@ -93,6 +117,11 @@ body {
 #cityName {
   font-size: 4rem;
   font-family: $font-stack;
+
+
+  @media (max-width: $screen-xs) {
+    font-size: 2rem;
+  }
 }
 
 .temp-display {
@@ -104,28 +133,44 @@ body {
   span {
     font-weight: 700;
   }
+
+  @media (max-width: $screen-xs) {
+    font-size: 1rem;
+  }
 }
 
 .lower-container {
+  height: 100%;
+  align-self: center;
+  justify-self: center;
   display: flex;
   
   align-items: center;
   justify-content: center;
-  gap: 50px;
-  flex-wrap: wrap;
+  gap: 5rem;
+  padding: 0 2rem;
 
-  @media(max-width: 1350px) {
+  @media(max-width: $screen-l) {
+    width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    
+    gap: 0;
     justify-items: center;
+    align-content: center;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: $screen-s) {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+
+  @media (max-width: $screen-xs){
+    gap: 0;
   }
  
 }
@@ -136,7 +181,7 @@ body {
   justify-content: center;
   width: 300px;
   height: 250px;
-  gap: 30px;
+  gap: 1rem;
 
   .info-text {
     font-size: 1.5rem;
@@ -144,7 +189,19 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: $screen-xs) {
+      font-size: 1.3rem;
+    }
   }
 
+  @media (max-width: $screen-s) {
+    height: 150px;
+  }
+
+  @media (max-width: $screen-xs){
+    font-size: 0.4rem;
+    height: 75px;
+  }
   
 }

@@ -29,3 +29,6 @@ The following was used to create the application:
 
 # Assets
 [Background Image](https://unsplash.com/photos/7BjhtdogU3A) taken by [Karseten Würth](https://unsplash.com/@karsten_wuerth)
+
+# TODO
+* Relative development for landscaped devices

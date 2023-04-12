@@ -48,6 +48,7 @@ function displayFeelsLike(weatherInfo) {
   console.log(weatherInfo);
   const container = document.querySelector('.feels-like');
   const iconContainer = document.createElement('div');
+  iconContainer.classList.add('temp-icon');
   iconContainer.innerHTML = utils.infoIcons('feels like');
 
 
